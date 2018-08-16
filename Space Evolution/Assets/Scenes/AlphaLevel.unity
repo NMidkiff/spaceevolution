@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 258888559}
   - component: {fileID: 258888558}
   - component: {fileID: 258888560}
+  - component: {fileID: 258888561}
   m_Layer: 0
   m_Name: Red Asteroid
   m_TagString: Asteroid
@@ -223,6 +224,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &258888561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258888556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1f8e3022ee6804aa9bc762cae57c36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
 --- !u!1 &620557582
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +351,28 @@ GameObject:
   m_PrefabParentObject: {fileID: 1978663541781660, guid: e9d202cecc429c34cac8f46c6523e400,
     type: 2}
   m_PrefabInternal: {fileID: 1422760811}
+--- !u!114 &661561537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 661561536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba69096d5294c9346b58133cee717f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &661561538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 661561536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a619529f0f6e6498a26afbc650cf45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &661561542
 MonoBehaviour:
   m_ObjectHideFlags: 0
